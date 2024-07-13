@@ -1,0 +1,167 @@
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+aside {
+    background-color: #a0522d;
+    color: white;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-pic {
+    text-align: center; /* Center profile picture */
+    margin-bottom: 20px; /* Add space below profile picture */
+  }
+  
+  .profile-pic img {
+    width: 160px; /* Set profile picture width */
+    height: 170px; /* Set profile picture height */
+    border-radius: 50%; /* Make profile picture circular */
+  }
+
+  aside nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  aside nav li {
+    margin-bottom: 10px; /* Add space between navigation items */
+  }
+  
+  aside nav a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set text color */
+    font-weight: bold; /* Make navigation text bold */
+  }
+  
+  aside nav a:hover {
+    color: #666; /* Change text color on hover */
+  }
+
+
+  main {
+    padding: 20px; /* Add padding to content area */
+  }
+  
+  header {
+    margin-bottom: 20px; /* Add space below header */
+    border-bottom: 1px solid #ddd; /* Add a dividing line below header */
+  }
+  
+  h1 span {
+    color: #0a0909; /* Set a different color for the last name */
+  }
+  
+  p {
+    line-height: 1.5; /* Increase line spacing for better readability */
+  }
+
+
+header a {
+    color: #a0522d;
+}
+
+section#about {
+    margin: 20px 0;
+}
+
+.social {
+    text-align: center; /* Center social media icons */
+    margin-top: 20px; /* Add space above social media icons */
+  }
+  
+  .social-link {
+    font-size: 30px; /* Set icon size */
+    color: #080808; /* Set icon color */
+    margin: 0 10px; /* Add spacing between icons */
+  }
+  
+  .social-link:hover {
+    color: #000; 
+  }
+  section {
+    margin-bottom: 10px; 
+  }
+  
+  .job, .school {
+    padding: 0px; /* Add padding inside experience/education item */
+    margin-bottom: 10px; /* Add space between experience/education items */
+  }
+  
+  .job h3, .school h3 {
+    margin-bottom: 5px; /* Add space below title in experience/education */
+  }
+  
+  .date {
+    color: #070707; /* Set date text color */
+    font-style: italic; /* Italicize date text */
+  }
+.main-content {
+    padding: 10px;
+    width: 100%;
+}
+
+.main-content section {
+    margin-bottom: 20px;
+}
+
+.main-content h2 {
+    color: #d9534f;
+}
+.skills {
+  padding: 0px;
+  margin: 50px auto;
+
+}
+.skills h2 {
+  text-align: left;
+  color: #050505;
+}
+.skills-list {
+  list-style: none;
+  line-height: 0%;
+  padding: 0;
+}
+.skills-list li {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: disc;
+  text-align: left;
+  font-size: 1em;
+  color: #0c0c0c;
+}
+.languages{
+  text-align: left;
+}
+.lang-list{
+  line-height: 0%;
+  padding: 0%;
+}
+.lang-list li{
+    padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: disc;
+  text-align: left;
+  font-size: 1em;
+  color: #0c0c0c;
+}
